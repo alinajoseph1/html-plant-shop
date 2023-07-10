@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="nav-bar-container">
+            <div class="nav-bar-title">
+                <ul class="title-left">
+                    <li> <img src="imgs/leaf.png" class="leaf" alt="leaf"></li>
+                    <li>
+                        <h1> EasyBay </h1>
+                    </li>
+                </ul>
+            </div>
+            <div class="search-bar">
+                <input type="text" class="searchbar" placeholder="    Search for anything">
+            </div>
+            <div class="sign-in">
+                <ul class="title-right">
+                    <li>Sign In</li>
+                    <li onclick="sendAlert()"><img src="imgs/cart-dark.png" class="shopping-cart" alt="shopping cart">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <ul class="plants">
+                <li>Aeonium</li>
+                <li> Andormischus</li>
+                <li> Agave </li>
+                <li> Aloe </li>
+                <li> Anacampseros </li>
+                <li> Aristaloe </li>
+                <li> More...</li>
+            </ul>
+        </div>
+        <div class="second-title">
+            <h2> Your Source for Serious Succulent Specialties </h2>
+        </div>
+        <div class="main">
+            <div class="main-left">
+                <div class="words">
+                    <h3>Discover suc-<br>ulent varieties<br> one pot or rack <br> at a time! <br><br> Discover <img
+                            src="imgs/arrow-light.png" alt="tiny right arrow" class="arrow"></h3>
+                </div>
+                <div class="main-left2"><img src="imgs/succulents-1.jpg" onmouseover="changePic(this)"
+                        onmouseleave="revertPic(this)" alt="variety of succulents" class="changing-images">
+                </div>
+            </div>
+            <div class="main-right">
+                <img src="imgs/aloe-m.jpg" alt="aloe plant center" class="aloe">
+                <div class="bottom-main-right">
+                    <p> Soothing aloe </p><img src="imgs/arrow-light.png" alt="tiny right arrow" class="arrow">
+                </div>
+            </div>
+        </div>
+        <div class="main-bottom">
+            <div> <img src="imgs/aeonium-s.jpg" alt="aeonium" class="plant-image">
+                <p>Aeonium</p>
+            </div>
+            <div> <img src="imgs/aloe-s.jpg" alt="aloe" class="plant-image">
+                <p> Aloe </p>
+            </div>
+            <div><img src="imgs/cactus-s.jpg" alt="cactus" class="plant-image">
+                <p>Cactus </p>
+            </div>
+            <div><img src="imgs/echeveria-s.jpg" alt="echeveria" class="plant-image">
+                <p>Echeveria </p>
+            </div>
+            <div><img src="imgs/sedum-s.jpg" alt="sedum" class="plant-image">
+                <p>Sedum</p>
+            </div>
+            <div><img src="imgs/sempervivum-s.jpg" alt="sempervivum" class="plant-image">
+                <p> Sempervivum</p>
+            </div>
+        </div>
+
+
+        <div id="pop-up">
+            <div class="exclamation">
+                <img class="alert" src="imgs/alert-dark.png" alt="alert">
+            </div>
+            <div class="alert-words">
+                <p> This site makes use of third-party cookies, by clicking "I accept"<br> you agree to the terms
+                    outlined in our <a href="#"> cookie policy.</a>
+            </div>
+            <div class="accept">
+                <button onclick="hideMessage('#pop-up')" class="button" type="button"> I Accept </button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

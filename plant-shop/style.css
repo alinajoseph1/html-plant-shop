@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width:900px;
+    margin:0px auto;
+}
+
+/* Navigation bar */
+.nav-bar-container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 900px;
+    padding-top: 5px;
+}
+
+ul.title-left,.title-right{
+    display:flex;
+    align-items: center;
+    list-style:none;
+    gap:15px;
+}
+.searchbar{
+    width:400px;
+    border-radius: 20px;
+    height: 25px;
+    background-image:url(imgs/search-dark.png) ;
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 20px;
+}
+img.leaf{
+    background-color:rgb(18, 222, 185);
+    height:30px;
+    width:30px;
+    margin-top:5px;
+}
+img.shopping-cart{
+    height:30px;
+    width:30px;
+}
+
+button.submit{
+    border-style:none;
+    background-color: none;
+}
+
+/* header */
+.header{
+    border-bottom: solid black 3px;
+    margin: 0px auto;
+    max-width: 900px;
+}
+ul.plants{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    list-style:none;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+
+.second-title{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    padding:15px;
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* main content*/
+.main{
+    display:flex;
+    gap:15px;
+    align-content: center;
+}
+
+.main-left{
+    display:flex;
+    align-items: center;
+    flex:2;
+    background-color: rgb(18, 222, 185);
+    color:white;
+}
+
+
+/* inside main left box */
+.main-left2{
+    display:flex;
+    flex:1;
+}
+
+.words{
+    display:flex;
+    text-align: center;
+    flex:1;
+    justify-content: center;
+    font-size:26px;
+    align-items: center;
+}
+
+img.changing-images{
+    display:block; 
+    max-width: 100%;
+}
+
+img.arrow{
+    height:20px;
+}
+
+/* main right side */
+.main-right{
+    display:flex;
+    flex-flow:column;
+    color:white;
+    flex:1;
+}
+.aloe{
+    display:flex;
+    flex:2;
+}
+.bottom-main-right{
+    display:flex;
+    flex:1;
+    justify-content: left;
+    background-color: rgb(18, 222, 185);
+    margin-top: 15px;
+    padding-left:25px;
+    font-size:26px;
+    align-items: center;
+}
+
+
+/* bottom */
+.main-bottom{
+    display:flex;
+    background-color:rgb(163, 244, 223);
+    margin-top: 20px;
+    justify-content: space-around;
+    padding-top:15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+img.plant-image{
+    height:100px;
+    border-radius: 50%;
+}
+
+/* pop up */
+#pop-up{
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px black solid;
+    background-color:white;
+    padding:5px;
+    font-size: larger;
+}
+.alert-words{
+    padding-left:5px;
+}
+.button{
+    background-color:rgb(18, 222, 185);
+    color:white;
+    border-color: black;
+    box-shadow: 3px 3px black;
+    padding:2px 10px;
+    margin-left:20px;
+}
